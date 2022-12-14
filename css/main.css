@@ -1,0 +1,537 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background: url('../img/bg.png');
+}
+@font-face {
+    font-family: "Amsdamsyr"; 
+    src: url("../fonts/amsdamcyr_lat.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+    .content_wrapper{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    @font-face {
+        font-family: "Circle"; 
+        src: url("../fonts/Circe-Light.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
+        .content_wrapper{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+h2{
+    background-color: rgb(233, 212, 195);
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    color: #583626;
+    font-size: 4rem;
+    position: relative;
+    font-family: Amsdamsyr;
+    line-height: 8rem;
+    padding: 200px 0 200px 0;
+    position: relative;
+    box-sizing: content-box;
+    white-space: nowrap;
+}
+h2::before{
+content: '';
+position: absolute;
+background: url('../img/sm_logo.png');
+left: 50%;
+bottom: 0;
+width: 100px;
+height: 100px;
+transform: rotate(180deg) translate(50%,50%);
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px 2% 10% 0;
+}
+header img{
+    width: 50%;
+}
+section{
+    display: flex;
+    border-top: 5px solid  rgb(233, 212, 195);
+    margin-top: -2px
+}
+/*section1 */
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10% 5% 5%;
+    width: 100%;
+}
+.productCard{
+    background: rgb(236, 154, 36);
+    padding:10px;
+    width: 25%;
+    margin-right: 20%;
+    position: relative;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    font-family: Amsdamsyr;
+    text-align: center;
+    padding: 5%;
+}
+.productCard h3+div{
+    background: white;
+    padding: 2% 2% 20% 2%;
+    font-family: 'Circle';
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+.productCard .imgCard img{
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+   top: 100%;
+   transform: translate(50%,-20%);
+}
+.productCard1{
+    margin-bottom: 400px;
+}
+.productCard1 .imgCard img{
+    width: 400px;
+    height: 400px;
+  
+}
+.imgCard{
+    position: relative;
+}
+ .productCard .imgCard .outline1{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+
+}
+/* section2 */
+.productCard2{
+    margin-bottom: 300px;
+}
+.productCard2 .imgCard img{
+    width: 300px;
+    height: 300px;
+  
+}
+.product2{
+    padding: 200px 5% 100px 5%;
+}
+.productCard2 .imgCard .outline1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+
+}
+/* section3 */
+.items3{
+    width: 100%;
+    display:flex ;
+}
+.items3 .productCard{
+    margin-right: 10%;
+}
+.items2{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+}
+.items2 .productCard{
+    margin-right: 10%;
+}
+/* section4 */
+.product3{
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 5% 0;
+}
+.product3 .imgCard img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.productCard3{
+    margin-right: 0;
+    margin-bottom: 300px;
+}
+.product3 .imgCard .outline2{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-47%);
+}
+.imgCard2{
+    position: absolute;
+   bottom: 50%;
+    left: 120%;
+    width: 300px;
+    height: 300px;
+}
+.imgGroup{
+    display: flex;
+    position: relative;
+}
+.imgCard3{
+    position: absolute;
+   bottom: 50%;
+    right:120%;
+    width: 300px;
+    height: 300px;
+}
+.oneitem{
+    width: 100%;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+/* section5 */
+.imgGroup2{
+    position: absolute;
+}
+.imgGroup2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.imgGroup2 .outline1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-47%);
+    width: 350px;
+    height: 350px;
+}
+.imgCard5{
+    margin-bottom: 100px;
+}
+.imgCard6{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+}
+.cardfull{
+    width: 25%;
+    margin-right: 20%;
+    position: relative;
+}
+.productCard4{
+    width: 100%;
+}
+.imgGroup2{
+    left: 70%;
+    top: 100%;
+    transform: translateY(-10%);
+}
+.cardfull{
+    margin-bottom:800px;
+}
+.product4{
+    padding: 10% 5% 0;
+}
+/* contacts */
+.ctn {
+    background-color:rgb(233, 212, 195);
+    padding: 20px;
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+h1{
+    color: #583626;
+    font-size: 2rem;
+    position: relative;
+    font-family: Amsdamsyr;
+    line-height: 2rem;
+}
+.contacts ul {
+    display: flex;
+    
+}
+
+
+@media (max-width: 1500px)  { 
+    .productCard2 .imgCard img {
+        width: 200px;
+        height: 200px;
+    }
+    .productCard2 .imgCard .outline1 {
+        position: absolute;
+        width: 230px;
+        height: 230px;
+    }
+    .productCard .imgCard .outline1 {
+        position: absolute;
+        width: 230px;
+        height: 230px;
+    }
+    .productCard1 .imgCard img {
+        width: 200px;
+        height: 200px;
+    }
+ }
+ @media (max-width: 1200px){
+    
+.product {
+  flex-direction: column;
+  align-items: center;
+  
+}
+.items3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product3 .imgCard img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.product3 .imgCard .outline2 {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-47%);
+}
+.imgCard1{
+    z-index: 15;
+}
+.imgCard3 {
+    position: absolute;
+    bottom: 0;
+    right: 70%;
+    width: 200px;
+    height: 200px;
+}
+.imgCard2 {
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+}
+.productCard3 {
+    margin-right: 0;
+    margin-bottom: 100px;
+}
+.productCard {
+    background: rgb(236, 154, 36);
+    padding: 10px;
+    margin-right: 0;
+    position: relative;
+}
+h2 {
+
+    writing-mode: horizontal-tb;
+    transform: rotate(-360deg);
+    padding: 0px 0 100px 0;
+
+}
+h2::before {
+    content: '';
+    position: absolute;
+    background: url(../img/sm_logo.png);
+    left: 50%;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    transform: rotate(720deg) translate(-50%,-10%);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid rgb(233, 212, 195);
+    margin-top: -2px;
+}
+.productCard .imgCard img {
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    top: 110%;
+    transform: translate(50%,-20%);
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10% 0% 0%;
+    width: 100%;
+}
+.items3 .productCard {
+    margin-right: 0%;
+}
+.product4{
+    flex-direction: column;
+    align-items: center;
+}
+.productCard4,.cardfull{
+    margin-right: 0;
+    margin-bottom: 400px;
+}
+.items2 .productCard {
+    margin-right: 0;
+}
+
+
+.imgGroup2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.imgGroup2 .outline1 {
+    
+    width: 230px;
+    height: 230px;
+}
+.imgCard6 {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+
+.imgGroup2 {
+    left: 50%;
+    top: 40%;
+    transform: translateY(-10%)translateX(-50%);
+}
+ }
+ @media (max-width: 720px){
+    .productCard {
+        background: rgb(236, 154, 36);
+        padding: 10px;
+        width: 70%;
+        margin-right: 0;
+        position: relative;
+    } 
+    .productCard3 {
+        margin-right: 0;
+        margin-bottom: -20px;
+    }
+    .oneitem {
+    
+        margin-bottom: 250px;
+    }
+    .product3 .imgCard img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .product3 .imgCard .outline2 {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-47%);
+    }
+    .imgCard1{
+        z-index: 15;
+    }
+    .imgCard3 {
+        position: absolute;
+        bottom: -90%;
+        right: 30%;
+        width: 150px;
+        height: 150px;
+    }
+    .imgCard2 {
+        position: absolute;
+        bottom: -90%;
+        left: 30%;
+        width: 150px;
+        height: 150px;
+    }
+    h2{
+       
+        font-size: 2rem;
+     
+        line-height: 2rem;
+        white-space: normal;
+}
+h2::before {
+ 
+    transform: rotate(720deg) translate(-50%,2%);
+}
+.items2 .productCard {
+margin-right: 0;
+}
+.cardfull {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+ }
