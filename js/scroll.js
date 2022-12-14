@@ -1,5 +1,5 @@
-
-const defaultOffset = 100;
+let lastScroll = 0;
+const defaultOffset = 200;
 const header = document.querySelector('.ctn');
 
 const scrollPosition = () => window.pageYOffset || document.documentElement.scrollTop;

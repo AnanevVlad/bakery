@@ -289,17 +289,33 @@ h3{
     padding: 10% 5% 0;
 }
 /* contacts */
-.ctn {
-    background-color:rgb(233, 212, 195);
-    padding: 20px;
-    z-index: 3;
-    position: fixed;
+
+.ctn{
+  padding: 20px;
+    z-index: 100;
+    position: relative;
     left: 0;
     top: 0;
-    width: 100%;
-    transition: all 0.5s linear;
+  opacity: 1;
+  background-color: rgb(233, 212, 195);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.ctn.hide {
+    opacity: 1;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+.ctn ul{
+    display: flex;
+}
+.ctn ul li {
+    margin-left: 10px;
+}
 h1{
     color: #583626;
     font-size: 2rem;
@@ -310,6 +326,19 @@ h1{
 .contacts ul {
     display: flex;
     
+}
+h4{
+    text-align: center;
+    color: #583626;
+    font-size: 1rem;
+    position: relative;
+    font-family: Amsdamsyr;
+    line-height: 1rem;
+    position: relative;
+    box-sizing: content-box;
+    white-space: nowrap; 
+    font-weight: 600;
+    padding: 0 0 10px 0;
 }
 
 
@@ -533,5 +562,41 @@ margin-right: 0;
     position: relative;
     display: flex;
     justify-content: center;
+}
+.ctn{
+    padding: 10px;
+      z-index: 100;
+      position: fixed;
+      left: 0;
+      top: 0;
+    opacity: 0;
+    background-color: rgb(233, 212, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: all 0.5s linear;
+  }
+  .icons{
+    width: 20px;
+    height: 20px;
+}
+.ctn ul{
+    display: flex;
+}
+.ctn ul li {
+    margin-left: 10px;
+}
+h1{
+    color: #583626;
+    font-size: 1rem;
+    position: relative;
+    font-family: Amsdamsyr;
+    line-height: 1rem;
+}
+h4{
+  
+    font-size: 0.6rem;
+    line-height: 0.6rem;
 }
  }
