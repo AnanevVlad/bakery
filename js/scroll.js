@@ -2,13 +2,11 @@
 let observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
 
-     
-        if (!entry.isIntersecting)
-        {
+
+        if (!entry.isIntersecting) {
             ctn.classList.add('hide');
         }
-        if (entry.isIntersecting)
-        {
+        if (entry.isIntersecting) {
             ctn.classList.remove('hide');
         }
     });

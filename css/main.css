@@ -298,17 +298,20 @@ h3{
     top: 0;
   opacity: 1;
   background-color: rgb(233, 212, 195);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+}
+.sub_contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .ctn.hide {
     opacity: 1;
 }
 .icons{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 .ctn ul{
     display: flex;
@@ -316,12 +319,39 @@ h3{
 .ctn ul li {
     margin-left: 10px;
 }
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description p{
+    font-family: "Circle";
+    font-weight: 600;
+    margin-top: 10px;
+    color: #583626;
+    margin-right: 50px;
+}
 h1{
     color: #583626;
     font-size: 2rem;
     position: relative;
     font-family: Amsdamsyr;
     line-height: 2rem;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts a{
+    color: #583626;
+    font-size: 1rem;
+    position: relative;
+    font-family: Amsdamsyr;
+    line-height: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
 }
 .contacts ul {
     display: flex;
@@ -571,12 +601,13 @@ margin-right: 0;
       top: 0;
     opacity: 0;
     background-color: rgb(233, 212, 195);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     transition: all 0.5s linear;
   }
+  .sub_contacts{
+    justify-content: center;
+    align-items: center;
+}
   .icons{
     width: 20px;
     height: 20px;
@@ -598,5 +629,25 @@ h4{
   
     font-size: 0.6rem;
     line-height: 0.6rem;
+}
+.contacts a{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+h4{
+    margin-bottom: -10px;
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+}
+.description p{
+    font-family: "Circle";
+    font-weight: 600;
+    margin-top: 10px;
+    color: #583626;
+    margin-right: 0;
+    text-align: center;
+    font-size: 0.7rem;
 }
  }
