@@ -41,8 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
+header , section{
     background: url('../img/bg.png');
+    background-size: cover;
 }
 @font-face {
     font-family: "Amsdamsyr"; 
