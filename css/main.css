@@ -322,12 +322,12 @@ h3{
 .ctn ul li {
     margin-left: 10px;
 }
-.description{
+.discounts{
     display: flex;
     justify-content: center;
     margin-top: -30px;
 }
-.description p{
+.discounts p{
     font-family: "Circle";
     font-weight: 600;
     margin-top: 10px;
@@ -403,7 +403,7 @@ h4{
         width: 200px;
         height: 200px;
     }
-    .description{
+    .discounts{
         margin-top: -10px;
     }
  }
@@ -652,13 +652,13 @@ h4{
     margin-bottom: 7px;
 }
 
-.description{
+.discounts{
     display: flex;
     justify-content: space-evenly;
     margin-top: 0;
     flex-wrap: wrap;
 }
-.description p{
+.discounts p{
     font-family: "Circle";
     font-weight: 600;
     margin-top: 10px;
