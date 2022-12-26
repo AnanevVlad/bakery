@@ -476,16 +476,7 @@ h2 {
     padding: 0px 0 100px 0;
 
 }
-h2::before {
-    content: '';
-    position: absolute;
-    background: url(../img/sm_logo.png);
-    left: 50%;
-    bottom: 0;
-    width: 100px;
-    height: 100px;
-    transform: rotate(720deg) translate(-50%,-10%) scale(0.9);
-}
+
 section {
     display: flex;
     flex-direction: column;
@@ -598,10 +589,7 @@ section {
         line-height: 2rem;
         white-space: normal;
 }
-h2::before {
- 
-    transform: rotate(720deg) translate(-50%,2%) scale(0.9);
-}
+
 .items2 .productCard {
 margin-right: 0;
 }
