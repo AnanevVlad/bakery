@@ -99,10 +99,44 @@ header{
     align-items: center;
     height: 100vh;
     padding: 50px 2% 10% 0;
+    flex-direction: column;
 }
-
+.arrow{
+    width: 50px;
+    height: 50px;
+    border-left: 5px solid #583626;
+    border-bottom:5px solid #583626;
+    position: relative;
+    transform: rotate(-45deg);
+    animation: 1s alternate-reverse 1s infinite running arrow;
+}
+@keyframes arrow {
+    0%{opacity: 0;}
+    50%{opacity: 50%;}
+    100%{opacity: 100%;}
+}
+.arrow::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-left: 4px solid #583626;
+    border-bottom:4px solid #583626;
+    left: 5px;
+    bottom: 5px;
+}
+.arrow::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-left: 3px solid #583626;
+    border-bottom:3px solid #583626;
+    left: 15px;
+    bottom: 15px;
+}
 header img{
-    width: 50%;
+    width: 45%;
 }
 section{
     display: flex;
@@ -389,6 +423,15 @@ h4{
     .productCard2 .imgCard img {
         width: 200px;
         height: 200px;
+    }
+    .arrow{
+        width: 50px;
+        height: 50px;
+        border-left: 5px solid #583626;
+        border-bottom:5px solid #583626;
+        position: relative;
+        transform: rotate(-45deg);
+        margin-top: 0px;
     }
     .productCard2 .imgCard .outline1 {
         position: absolute;
