@@ -10,7 +10,6 @@ let observers = new IntersectionObserver(function (entries) {
         }
     });
 });
-
 let elm = document.querySelector('section');
 const arrow = document.querySelector('.arrow');
 observers.observe(elm);
