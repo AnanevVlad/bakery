@@ -412,6 +412,7 @@ h4{
     .name{
         padding: 0;
         flex-direction: column-reverse;
+        padding-top: 10px;
     }
     .productCard1{
         margin-bottom: 200px;
@@ -484,7 +485,7 @@ h2 {
 section {
     display: flex;
     flex-direction: column;
-    border-top: 5px solid rgb(233, 212, 195);
+    border-top: none;
     margin-top: -2px;
 }
 .productCard .imgCard img {
