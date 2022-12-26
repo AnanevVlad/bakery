@@ -1,16 +1,16 @@
-let observer = new IntersectionObserver(function (entries) {
+let observers = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
 
 
-        if (!entry.isIntersecting) {
-            ctn.classList.add('hide');
-        }
         if (entry.isIntersecting) {
-            ctn.classList.remove('hide');
+            arrow.classList.add('hide_arrow');
+        }
+        if (!entry.isIntersecting) {
+            arrow.classList.remove('hide_arrow');
         }
     });
 });
 
-let el = document.querySelector('header');
-const ctn = document.querySelector('.arrow');
-observer.observe(el);
+let elm = document.querySelector('section');
+const arrow = document.querySelector('.arrow');
+observers.observe(elm);

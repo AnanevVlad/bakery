@@ -90,6 +90,9 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
+.hide_arrow{
+visibility: hidden;
+}
 .name img{
     width: 100px;
 }
@@ -580,6 +583,9 @@ section {
 }
  }
  @media (max-width: 720px){
+    header img{
+        margin-bottom: 100px;
+    }
     .productCard {
         background: rgb(236, 154, 36);
         padding: 10px;
