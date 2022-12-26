@@ -44,6 +44,10 @@ table {
 header , section{
     background: url('../img/bg.png');
 }
+.hide_arrow{
+    visibility: hidden;
+  
+    }
 @font-face {
     font-family: "Amsdamsyr"; 
     src: url("../fonts/amsdamcyr_lat.ttf") format("truetype"); 
@@ -89,9 +93,6 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-.arrow.hide_arrow{
-visibility: hidden;
 }
 .name img{
     width: 100px;
