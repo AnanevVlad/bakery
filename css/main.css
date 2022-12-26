@@ -119,6 +119,9 @@ header{
     50%{opacity: 50%;}
     100%{opacity: 100%;}
 }
+li>a.dan_prod{
+    display: none;
+}
 .arrow::before{
     content: '';
     position: absolute;
