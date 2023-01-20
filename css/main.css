@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-header , section{
+.main_logo , section{
     background: url('../img/bg.png');
 }
 .hide_arrow{
@@ -100,7 +100,7 @@ h2{
 .name img{
     width: 100px;
 }
-header{
+.main_logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,14 +149,13 @@ a.dan_prod{
     left: 15px;
     bottom: 15px;
 }
-header img{
+.main_logo img{
     width: 45%;
     padding-top: 50px;
 }
 section{
     display: flex;
     border-top: 5px solid  rgb(233, 212, 195);
-    margin-top: -2px
 }
 /*section1 */
 .product{
@@ -260,7 +259,7 @@ h3{
 }
 .productCard3{
     margin-right: 0;
-    margin-bottom: 300px;
+    margin-bottom: 170px;
 }
 .product3 .imgCard .outline2{
     width: 350px;
@@ -350,6 +349,7 @@ h3{
   opacity: 1;
   background-color: rgb(233, 212, 195);
   width: 100%;
+  border-bottom: 1px solid gray;
 }
 .ctn img{
     width: 90px;
@@ -376,6 +376,7 @@ footer{
     padding: 2% 20%;
     opacity: 1;
     background-color: rgb(233, 212, 195);
+    border-top: 1px solid rgb(170, 168, 168);
     
   
   }
@@ -417,9 +418,7 @@ footer{
     margin-right: 50px;
 }
 
-.ctn.hide {
-    opacity: 1;
-}
+
 .icons{
     width: 30px;
     height: 30px;
@@ -529,7 +528,7 @@ h4{
     padding: 0 0 50px 0;
 }
 .products ul>li{
-   flex-basis: 50%;
+   flex-basis: 33%;
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -543,7 +542,6 @@ h4{
     font-size: 1.5rem;
     font-family: Amsdamsyr;
     font-weight: 800;
-    width: 350px;
     display: block;
  }
  .cardprod{
@@ -596,6 +594,7 @@ h4{
         padding: 0;
         flex-direction: column-reverse;
         padding-top: 10px;
+        display: none;
     }
     .productCard1{
         margin-bottom: 200px;
@@ -669,7 +668,7 @@ section {
     display: flex;
     flex-direction: column;
     border-top: none;
-    margin-top: -2px;
+    margin-top: 150px;
 }
 .productCard .imgCard img {
     border-radius: 50%;
@@ -723,9 +722,23 @@ section {
     top: 40%;
     transform: translateY(-10%)translateX(-50%);
 }
+.cardprod>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.cardprod .outline1 {
+    position: absolute;
+    left: 50%;
+    bottom: -4%;
+    transform: translateX(-50%);
+    width: 230px;
+    height: 230px;
+}
  }
  @media (max-width: 720px){
-    header img{
+    .main_logo img{
         margin-bottom: 100px;
     }
     .productCard {
@@ -799,7 +812,6 @@ margin-right: 0;
       position: fixed;
       left: 0;
       top: 0;
-    opacity: 0;
     background-color: rgb(233, 212, 195);
     width: 100%;
     transition: all 0.5s linear;
@@ -852,5 +864,28 @@ h4{
     text-align: center;
     font-size: 0.7rem;
    
+}
+.cardprod>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.cardprod .outline1 {
+    position: absolute;
+    left: 50%;
+    bottom: -4%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 180px;
+}
+.products ul>li {
+    flex-basis: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
 }
  }
