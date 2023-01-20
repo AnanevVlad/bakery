@@ -104,7 +104,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     padding: 50px 2% 10% 0;
     flex-direction: column;
 }
@@ -152,6 +151,7 @@ a.dan_prod{
 }
 header img{
     width: 45%;
+    padding-top: 50px;
 }
 section{
     display: flex;
@@ -367,9 +367,10 @@ h3{
 }
 .ctn>div{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 30px;
+    width: 100%;
+    justify-content: space-between;
 }
 footer{
     padding: 2% 20%;
@@ -425,8 +426,9 @@ footer{
 }
 .ctn ul{
     display: flex;
-    width: 25%;
     justify-content: space-between;
+    flex-basis: 70%;
+    padding: 0 150px 0 0;
 }
 .ctn ul li {
     margin-left: 10px;
@@ -509,6 +511,9 @@ h4{
     align-items: center;
     margin-bottom: 10px;
 }
+.products{
+    background: url('/img/bg.png');
+}
 .products h5{
     text-align: center;
     color: #583626;
@@ -526,6 +531,11 @@ h4{
 .products ul>li{
    flex-basis: 50%;
    text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 50px;
 }
 .products ul>li a{
     text-decoration: none;
@@ -533,6 +543,8 @@ h4{
     font-size: 1.5rem;
     font-family: Amsdamsyr;
     font-weight: 800;
+    width: 350px;
+    display: block;
  }
  .cardprod{
     position: relative;
@@ -542,11 +554,12 @@ h4{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    margin-bottom: 15px;
  }
  .cardprod .outline1{
     position: absolute;
     left: 50%;
-    bottom: 1%;
+    bottom: -4%;
     transform: translateX(-50%);
     width: 350px;
     height: 350px;
