@@ -666,7 +666,7 @@ section {
     display: flex;
     flex-direction: column;
     border-top: none;
-    margin-top: 150px;
+    margin-top: 81px;
 }
 .productCard .imgCard img {
     border-radius: 50%;
@@ -923,7 +923,7 @@ footer h3 {
 }
 
 .arrow {
-margin-top: 25px;
+margin-top: -50px;
 }
 .ctn ul {
     display: flex;
