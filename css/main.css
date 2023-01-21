@@ -866,8 +866,8 @@ h4{
    
 }
 .cardprod>img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
@@ -876,8 +876,8 @@ h4{
     left: 50%;
     bottom: -4%;
     transform: translateX(-50%);
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
 }
 .products ul>li {
     flex-basis: 50%;
@@ -888,4 +888,45 @@ h4{
     justify-content: center;
     padding-bottom: 50px;
 }
+footer ul+ul{
+    flex-direction: column;
+    align-items: center;
+}
+footer ul+ul a {
+    font-size: 1em;
+
+}
+footer {
+    padding: 2% 10%;
+   
+}
+footer h3 {
+    color: #583626;
+    padding: 5% 0;
+}
+.ctn>div {
+    display: flex;
+    align-items: center;
+ padding: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.ctn img {
+    width: 60px;
+}
+.ctn a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #583626;
+
  }
+ .main_logo img {
+    width: 300px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.arrow {
+margin-top: 25px;
+}
+}
