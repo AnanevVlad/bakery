@@ -803,6 +803,7 @@ margin-right: 0;
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 .ctn{
     padding: 10px;
@@ -944,5 +945,6 @@ margin-top: 25px;
         width: 30px;
         height: 30px;
     }
-}
+  
+ }
 
