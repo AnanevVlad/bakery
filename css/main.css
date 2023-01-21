@@ -386,10 +386,8 @@ footer{
   }
   footer ul{
     display: flex;
-    justify-content: center;
-  }
-  footer ul>li{
-    margin-right: 30px;
+    justify-content: space-around;
+    padding: 0 30%;
   }
   footer ul+ul{
     justify-content: space-between;
@@ -420,8 +418,8 @@ footer{
 
 
 .icons{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .ctn ul{
     display: flex;
@@ -821,10 +819,7 @@ margin-right: 0;
     align-items: center;
     margin-right: 20px;
 }
-  .icons{
-    width: 20px;
-    height: 20px;
-}
+ 
 .ctn ul{
     display: flex;
 }
@@ -907,7 +902,7 @@ footer h3 {
 .ctn>div {
     display: flex;
     align-items: center;
- padding: 0;
+ padding: 0 0;
     width: 100%;
     justify-content: space-between;
 }
@@ -929,4 +924,13 @@ footer h3 {
 .arrow {
 margin-top: 25px;
 }
+.ctn ul {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 70%;
+    padding: 0 50px 0 0;
 }
+.icons{
+    display: block;}
+}
+
