@@ -387,7 +387,7 @@ footer{
   footer ul{
     display: flex;
     justify-content: space-around;
-    padding: 0 30%;
+    padding: 0 40%;
   }
   footer ul+ul{
     justify-content: space-between;
