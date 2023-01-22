@@ -449,7 +449,7 @@ width: 100%;
 .discounts{
     display: flex;
     justify-content: center;
-    margin-top: -30px;
+    
 }
 .discounts p{
     font-family: "Circle";
@@ -592,7 +592,7 @@ h4{
         padding: 0;
         flex-direction: column-reverse;
         padding-top: 10px;
-        display: none;
+        
     }
     .productCard1{
         margin-bottom: 200px;
@@ -791,7 +791,7 @@ section {
        
         font-size: 2rem;
      
-        line-height: 2rem;
+        line-height: 4rem;
         white-space: normal;
 }
 
