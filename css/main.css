@@ -709,12 +709,14 @@ section {
     height: 230px;
 }
 .imgCard6 {
-    position: absolute;
+    position: relative;
     top: 25%;
     right: 0%;
 }
 
-
+.imgCard5 {
+    margin-bottom: 20px; 
+}
 .imgGroup2 {
     left: 50%;
     top: 40%;
@@ -776,14 +778,14 @@ section {
     .imgCard3 {
         position: absolute;
         bottom: -90%;
-        right: 30%;
+        right: 100%;
         width: 150px;
         height: 150px;
     }
     .imgCard2 {
         position: absolute;
         bottom: -90%;
-        left: 30%;
+        left: 100%;
         width: 150px;
         height: 150px;
     }
