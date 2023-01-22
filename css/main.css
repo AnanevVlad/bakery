@@ -721,6 +721,7 @@ section {
     left: 50%;
     top: 40%;
     transform: translateY(-10%)translateX(-50%);
+    margin-bottom: 200px;
 }
 .cardprod>img {
     width: 200px;
@@ -778,14 +779,14 @@ section {
     .imgCard3 {
         position: absolute;
         bottom: -90%;
-        right: 100%;
+        right: 80%;
         width: 150px;
         height: 150px;
     }
     .imgCard2 {
         position: absolute;
         bottom: -90%;
-        left: 100%;
+        left: 80%;
         width: 150px;
         height: 150px;
     }
@@ -805,7 +806,7 @@ margin-right: 0;
     position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 .ctn{
     padding: 10px;
